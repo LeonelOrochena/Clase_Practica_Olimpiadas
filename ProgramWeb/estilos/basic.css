@@ -1,0 +1,50 @@
+
+#main{
+    text-align: center;
+}
+
+#banner{
+    background-color: aquamarine;
+    width: 100%;
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#text {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#table {
+    width: 15%;
+    display: inline-block; 
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+  /*Javascript*/
+
+.visible {
+    display: block;
+}
+
+.oculta{
+    display: none;
+}
+
+.escala {
+    animation: aumento 2s ease-in-out;
+}
+
+@keyframes aumento {
+    0% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
